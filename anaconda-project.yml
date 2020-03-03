@@ -4,6 +4,7 @@ description: A comprehensive project template that contains all of the packages 
 
 packages:
   - python=3.6.3
+  - notebook
 channels: []
 
 platforms:
@@ -14,7 +15,7 @@ env_specs:
   anaconda50_julia:
     packages:
     - julia
-    - ipykernel
+    - notebook
     channels:
     - https://conda.anaconda.org/conda-forge
  
