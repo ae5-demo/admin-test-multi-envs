@@ -9,3 +9,8 @@ julia scripts/ijulia.jl
 
 # install kernel in local jupyter
 jupyter kernelspec install /opt/continuum/.local/share/jupyter/kernels/julia-1.1 --prefix $CONDA_PREFIX
+
+#remove conda init from ~/.bashrc
+sed -i '/^# >>>/,/# <<</d' ~/.bashrc
+
+
