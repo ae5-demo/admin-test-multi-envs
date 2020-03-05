@@ -23,6 +23,7 @@ env_specs:
   Julia:
     packages:
     - julia
+    - jupyter_client
     channels:
     - https://conda.anaconda.org/conda-forge
     
