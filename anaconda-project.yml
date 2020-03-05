@@ -1,6 +1,6 @@
 name: Multienvs Project
 
-description: A project to demonstrate multiple envs, limitations, workarounds and git operations with AE5
+description: A template project to demonstrate multiple envs, with Julia, Python2 and Python3, doc limitations, workarounds and git operations with AE5
 
 
 platforms:
